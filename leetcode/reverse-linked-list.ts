@@ -1,8 +1,7 @@
-import { displayLinkedList } from "./display-linked-list.js";
-import { ListNode } from "./_listNode.mjs";
+import { ListNodeType } from "./utils/types.js";
 
-export function reverseLinkedList(list) {
-  let prev = null;
+export function reverseLinkedList(list: ListNodeType| null) {
+  let prev: ListNodeType| null = null;
   let current = list;
 
   while (current != null) {

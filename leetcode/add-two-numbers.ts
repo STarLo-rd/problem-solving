@@ -11,17 +11,18 @@
  * @return {ListNode}
  */
 
-import { displayLinkedList } from "./display-linked-list.js";
-import { reverseLinkedList } from "./reverse-linked-list.js";
-import { ListNode } from "./_listNode.mjs";
+import { displayLinkedList } from "./display-linked-list";
+import { ListNode } from "./ListNode";
+import { reverseLinkedList } from "./reverse-linked-list";
+import { ListNodeType } from "./utils/types";
 
-function insertAtBegin(data, list) {
+function insertAtBegin(data: number, list: ListNodeType):  ListNodeType {
   if (!list) {
     let node = new ListNode(data);
     return node;
   }
 
-  let temp = list;
+  let temp: ListNodeType = list;
   while (temp.next) {
     temp = temp.next;
   }
@@ -69,5 +70,6 @@ var addTwoNumbers = function (l1, l2) {
 
 var l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9))));
 var l2 = new ListNode(9, new ListNode(9, new ListNode(9)));
+
 
 displayLinkedList(addTwoNumbers(l1, l2));
