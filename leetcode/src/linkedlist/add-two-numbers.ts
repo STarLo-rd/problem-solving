@@ -11,9 +11,9 @@
  * @return {ListNode}
  */
 
-import { displayLinkedList } from "../../common/display-linked-list";
-import { ListNode } from "../../common/ListNode";
-import { reverseLinkedList } from "../../common/reverse-linked-list";
+import { displayLinkedList } from "../../common/linkedlist/display-linked-list";
+import { ListNode } from "../../common/linkedlist/ListNode";
+import { reverseLinkedList } from "../../common/linkedlist/reverse-linked-list";
 import { ListNodeType } from "../../utils/types";
 
 function insertAtBegin(data: number, list: ListNodeType): ListNodeType {

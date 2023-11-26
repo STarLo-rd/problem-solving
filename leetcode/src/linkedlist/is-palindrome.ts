@@ -1,7 +1,7 @@
-import { arrayToLinkedList } from "../../common/array-to-linkedList";
-import { ListNode } from "../../common/ListNode";
-import { displayLinkedList } from "../../common/display-linked-list";
-import { reverseLinkedList } from "../../common/reverse-linked-list";
+import { arrayToLinkedList } from "../../common/linkedlist/array-to-linkedList";
+import { ListNode } from "../../common/linkedlist/ListNode";
+import { displayLinkedList } from "../../common/linkedlist/display-linked-list";
+import { reverseLinkedList } from "../../common/linkedlist/reverse-linked-list";
 
 function deepCopyLinkedList(head: ListNode | null): ListNode | null {
   if (head === null) {

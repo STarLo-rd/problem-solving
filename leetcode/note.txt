@@ -1,0 +1,13 @@
+# Ignore JavaScript files
+*.js
+
+# Node.js
+node_modules/
+
+notes.txt
+
+*.dist
+
+nodemon file.ts
+
+Add breakpoints in the file and click f5 and run ts-node filename.ts

@@ -1,6 +1,6 @@
-import { ListNode } from "../../common/ListNode";
-import { arrayToLinkedList } from "../../common/array-to-linkedList";
-import { displayLinkedList } from "../../common/display-linked-list";
+import { ListNode } from "../../common/linkedlist/ListNode";
+import { arrayToLinkedList } from "../../common/linkedlist/array-to-linkedList";
+import { displayLinkedList } from "../../common/linkedlist/display-linked-list";
 
 function greaterOfLL(list: ListNode): number {
   let value: number = 0;

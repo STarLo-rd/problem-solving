@@ -1,6 +1,6 @@
-import { arrayToLinkedList } from "../../common/array-to-linkedList";
-import { displayLinkedList } from "../../common/display-linked-list";
-import { ListNode } from "../../common/ListNode";
+import { arrayToLinkedList } from "../../common/linkedlist/array-to-linkedList";
+import { displayLinkedList } from "../../common/linkedlist/display-linked-list";
+import { ListNode } from "../../common/linkedlist/ListNode";
 
 function commonDivisor(num1: number, num2: number): number {
   let minNum = Math.min(num1, num2);
