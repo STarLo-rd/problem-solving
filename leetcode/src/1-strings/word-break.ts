@@ -5,7 +5,7 @@ function wordBreak(s: string, wordDict: string[]): boolean {
     let index = s.indexOf(word);
     while (index !== -1) {
       visited[i] = true;
-      s = s =
+      s =
         s.substring(0, s.indexOf(word)) +
         s.substring(s.indexOf(word) + word.length);
 
