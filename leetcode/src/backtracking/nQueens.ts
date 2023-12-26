@@ -46,8 +46,6 @@ function makeNQueenCall(row: number) {
   }
 
   console.log(nQueens(board, 0));
-
-  //   displayBoard(board);
 }
 
 function displayBoard(board: boolean[][]) {
