@@ -15,4 +15,4 @@ function subset(arr: string[]): string[][] {
 }
 
 let arr: string[] = ["a", "b"];
-console.log(subset(["a", "b"]));
+console.log(subset(["a", "b"])); 

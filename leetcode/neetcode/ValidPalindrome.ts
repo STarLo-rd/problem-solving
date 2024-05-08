@@ -9,12 +9,13 @@ function validPalindrome(s: string): boolean {
   // Convert all characters to lowercase
   cleanedString = cleanedString.replace(/\s+/g, "");
   let lowercaseString = cleanedString.toLowerCase();
-  console.log(cleanedString)
+  console.log(cleanedString);
 
-  console.log(lowercaseString.length, Math.ceil(lowercaseString.length/ 2))
+  console.log(lowercaseString.length, Math.ceil(lowercaseString.length / 2));
 
-  for(let i=0; i<Math.ceil(lowercaseString.length/ 2) ; i++){
-    if (lowercaseString[i] !== lowercaseString[lowercaseString.length - i-1]) return false;
+  for (let i = 0; i < Math.ceil(lowercaseString.length / 2); i++) {
+    if (lowercaseString[i] !== lowercaseString[lowercaseString.length - i - 1])
+      return false;
   }
 
   return true;
@@ -22,4 +23,3 @@ function validPalindrome(s: string): boolean {
 
 // console.log(validPalindrome("A man, a plan, a canal: Panama"));
 console.log(validPalindrome("ab_a"));
-

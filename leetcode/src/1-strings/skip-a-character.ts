@@ -6,4 +6,4 @@ function skipAWord(str: String, le: String): String | null {
   );
 }
 
-console.log(skipAWord("starlord", "a"));
+console.log(skipAWord("starlord", "a")); 
