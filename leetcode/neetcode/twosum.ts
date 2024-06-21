@@ -10,6 +10,7 @@ function twoSum(nums: number[], target: number): number[] {
     obj[nums[i]] = i;
     console.log(obj);
   }
+  
 
   return [];
 }

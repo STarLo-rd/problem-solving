@@ -9,7 +9,6 @@ function topKFrequent(nums: number[], k: number): number[] {
     }
 
     console.log("map",map)
-
     return Array.from(map.keys())
     .sort((a, b) => map.get(b) - map.get(a))
     .slice(0, k);
@@ -17,4 +16,4 @@ function topKFrequent(nums: number[], k: number): number[] {
 };
 
 
-console.log(topKFrequent([1,1,1,2,2,2,2,2,3],1))
+console.log(topKFrequent([10,1,1,1,2,2,2,2,2,3,1],1))
